@@ -44,7 +44,7 @@ myImage.addEventListener("load", function(){
     function animate(){
         ctx.drawImage(myImage, 0, 0, canvas.width, canvas.height); 
         ctx.globalAlpha = 0.1;
-        ctx.fillStyle = "black";
+        ctx.fillStyle = "#1a1919";
         ctx.fillRect(0, 0, canvas.width, canvas.height);
         for (let i = 0; i < particlesArray.length; i++){
             particlesArray[i].update();
